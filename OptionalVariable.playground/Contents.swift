@@ -43,7 +43,7 @@ if let opNumber = optionalNumber {
 }
 var optionalString: String?
 if optionalString == nil{
-    print("optionalString, \(optionalString!)")
+    print("optionalString, nil")
     optionalString = "Boboshko A.V."
     print(optionalString!)
 } else {
@@ -190,4 +190,3 @@ if students4.exams != nil{
     infoStudents4 += "\nMy result in exams: \(students4.exams!)."
 }
 print(infoStudents4)
-
