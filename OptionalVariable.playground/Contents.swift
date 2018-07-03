@@ -113,12 +113,10 @@ if response.statusCode >= 200 && response.statusCode < 300 {
     } else {
         print ("message is nil")
     }
-} else {
-if response.errorMessage != nil {
+} else if response.errorMessage != nil {
     print(response.errorMessage!)
 } else {
     print("error massage is nil")
-    }
 }
 
 var response2: (message: String?, errorMessage: String?)
